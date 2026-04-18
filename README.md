@@ -47,3 +47,15 @@ n<&- Close input file descriptor n.
 The original project was MIT, and I'm sticking with that.
 
 I've kept Dylan, added my name, and a link to the full contributors list.
+
+## File Existence Check (Bash)
+
+```bash
+file="example.txt"
+
+if [ -f "$file" ]; then
+    echo "File exists"
+else
+    echo "File not found"
+fi
+```
